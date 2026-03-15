@@ -1,0 +1,125 @@
+/* GOOGLE FONTS  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* VARIABLE CSS  */
+:root {
+  --header-height: 3.5rem;
+
+  /* Colors  */
+  /* Color mode HSL(hue, saturation, lightness) */
+  --first-color: hsl(12, 81%, 40%);
+  --first-color-alt: hsl(12, 78%, 38%);
+  --title-color: hsl(12, 95%, 15%);
+  --text-color: hsl(12, 12%, 40%);
+  --white-color: hsl(12, 100%, 99%);
+  --dark-color: hsl(12, 95%, 12%);
+  --body-color: hsl(0, 0%, 100%);
+  --body-white-color: hsl(0, 0%, 100%);
+  --body-first-color: hsl(12, 80%, 40%);
+
+  /* FONT TYPOGRAPHY  */
+  /* .5rem=8px | 1rem=16px  */
+  --body-font: "Poppins", sans-serif;
+  --second-font: "Open Sans", sans-serif;
+  --biggest-font-size: 4.5rem;
+  --big-font-size: 2.5rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+
+  /* FONT WEIGHT  */
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* Z INDEX  */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/* RESPONSIVE TYPOGRAPHY  */
+@media screen and (min-width: 1150px) {
+  :root {
+    --biggest-font-size: 9.5rem;
+    --big-font-size: 4rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+  }
+}
+
+/* BASE  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+input,
+button,
+body {
+  font-family: var(--second-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--body-font);
+  font-weight: var(--font-medium);
+  line-height: 110%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* REUSABLE CSS CLASSES  */
+.container {
+  max-width: 1120px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+.section {
+  padding-block: 5rem 4rem;
+}
+
+.section__title {
+  text-align: center;
+  font-size: var(--big-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 2.5rem;
+}
+.main {
+  overflow: hidden;
+}
