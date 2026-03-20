@@ -13,14 +13,14 @@
   --text-color: hsl(12, 12%, 40%);
   --white-color: hsl(12, 100%, 99%);
   --dark-color: hsl(12, 95%, 12%);
-  --body-color: hsl(0, 0%, 100%);
+  --body-color: hsl(12, 56%, 18%);
   --body-white-color: hsl(0, 0%, 100%);
   --body-first-color: hsl(12, 80%, 40%);
 
   /* FONT TYPOGRAPHY  */
   /* .5rem=8px | 1rem=16px  */
-  --body-font: "Poppins", sans-serif;
-  --second-font: "Open Sans", sans-serif;
+  --body-font: "Open Sans", sans-serif;
+  --second-font: "Poppins", sans-serif;
   --biggest-font-size: 4.5rem;
   --big-font-size: 2.5rem;
   --h1-font-size: 1.5rem;
@@ -122,4 +122,33 @@ img {
 }
 .main {
   overflow: hidden;
+}
+
+/* HEADER & NAV  */
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--body-color);
+  z-index: var(--z-fixed);
+  transition: box-shadow 0.4s;
+}
+.nav {
+  position: relative;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  color: var(--white-color);
+  font-family: var(--second-font);
+  font-weight: var(--font-semi-bold);
+  transition: color 0.4s;
+}
+
+.nav__logo:hover {
+  color: var(--first-color);
 }
