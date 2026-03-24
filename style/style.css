@@ -229,10 +229,26 @@ img {
   display: grid;
   justify-items: center;
   justify-self: center;
+  width: 100%;
+  max-width: 300px;
+  margin-inline: auto;
+}
+.home__shape {
+  width: 100%;
+  background-color: var(--first-color);
+  border-radius: 50%;
+  clip-path: inset(50% 0 0 0);
+  aspect-ratio: 1/1;
 }
 
-/* .home__catering {
-  width: 300px;
+.home__images img {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+.home__catering {
+  width: 100%;
+  max-width: 300px;
   top: -1.5rem;
   rotate: -10deg;
-} */
+}
