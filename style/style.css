@@ -211,3 +211,28 @@ img {
 .active-link {
   color: var(--first-color);
 }
+
+/* HOME  */
+.home__container {
+  position: relative;
+  padding-top: 3rem;
+  row-gap: 0;
+}
+.home__title {
+  color: var(--body-color);
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-semi-bold);
+  text-align: center;
+}
+.home__images {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  justify-self: center;
+}
+
+/* .home__catering {
+  width: 300px;
+  top: -1.5rem;
+  rotate: -10deg;
+} */
