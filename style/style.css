@@ -237,7 +237,6 @@ img {
   width: 100%;
   background-color: var(--first-color);
   border-radius: 50%;
-  clip-path: inset(50% 0 0 0);
   aspect-ratio: 1/1;
 }
 
@@ -276,7 +275,8 @@ img {
 .home__spoon {
   width: 70px;
   left: -2rem;
-  bottom: 3rem;
+  bottom: 4rem;
+  rotate: 5deg;
 }
 
 .home__fork {
@@ -296,4 +296,12 @@ img {
   right: 0.5rem;
   top: 20rem;
   rotate: 15deg;
+}
+.home__data {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.home__description {
+  color: var(--body-color);
+  margin-bottom: 1.5rem;
 }
