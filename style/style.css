@@ -252,3 +252,7 @@ img {
   top: -1.5rem;
   rotate: -10deg;
 }
+.home__splash {
+  max-width: initial;
+  width: 350px;
+}
