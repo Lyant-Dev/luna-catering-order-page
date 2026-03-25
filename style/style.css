@@ -270,7 +270,7 @@ img {
 .home__broccoli-2 {
   right: 2rem;
   bottom: 2rem;
-  rotate: 10deg;
+  rotate: 90deg;
   filter: blur(0.5px);
 }
 .home__spoon {
@@ -284,4 +284,16 @@ img {
   right: 1rem;
   rotate: -80deg;
   top: 1rem;
+}
+.home__lettuce {
+  width: 40px;
+  right: 6rem;
+  bottom: 0.3rem;
+}
+.home__sticker {
+  position: absolute;
+  width: 55px;
+  right: 0.5rem;
+  top: 20rem;
+  rotate: 15deg;
 }
