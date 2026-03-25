@@ -256,3 +256,32 @@ img {
   max-width: initial;
   width: 350px;
 }
+.home__broccoli-1 {
+  width: 60px;
+}
+.home__broccoli-2 {
+  width: 40px;
+}
+.home__broccoli-1 {
+  left: 1.5rem;
+  top: 1.5rem;
+  rotate: 20deg;
+}
+.home__broccoli-2 {
+  right: 2rem;
+  bottom: 2rem;
+  rotate: 10deg;
+  filter: blur(0.5px);
+}
+.home__spoon {
+  width: 70px;
+  left: -2rem;
+  bottom: 3rem;
+}
+
+.home__fork {
+  width: 50px;
+  right: 1rem;
+  rotate: -80deg;
+  top: 1rem;
+}
