@@ -318,5 +318,12 @@ img {
 }
 .button:hover {
   background-color: var(--body-color);
-  box-shadow: 0 8px 24px hsla(292, 85%, 8%, 0.2);
+  box-shadow: 0 8px 24px hsla(12, 85%, 8%, 0.2);
+}
+.button_dark {
+  margin-top: 1.5rem;
+  background-color: var(--dark-color);
+}
+.button-dark:hover {
+  background-color: var(--body-color);
 }
