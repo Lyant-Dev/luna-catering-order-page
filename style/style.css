@@ -327,3 +327,26 @@ img {
 .button-dark:hover {
   background-color: var(--body-color);
 }
+
+/* POPULAR  */
+.popular {
+  background-color: var(--body-white-color);
+}
+.popular .section__title {
+  color: var(--title-color);
+}
+.popular__swiper {
+  padding-top: 1.5rem;
+}
+.popular__card {
+  width: 100%;
+  width: 270px;
+  display: grid;
+  row-gap: 1.5rem;
+}
+.popular__images {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  justify-self: center;
+}
