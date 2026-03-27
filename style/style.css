@@ -340,7 +340,7 @@ img {
 }
 .popular__card {
   width: 100%;
-  width: 270px;
+  max-width: 270px;
   display: grid;
   row-gap: 1.5rem;
 }
@@ -349,4 +349,11 @@ img {
   display: grid;
   justify-items: center;
   justify-self: center;
+}
+.popular__shape {
+  background-color: var(--first-color);
+  aspect-ratio: 1/1;
+  width: 70%;
+  border-radius: 50%;
+  clip-path: inset(50% 0 0 0);
 }
