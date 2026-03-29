@@ -362,25 +362,25 @@ img {
   position: absolute;
 }
 .popular__menu {
-  width: 195px;
-  top: -1rem;
+  width: 200px;
+  top: 3rem;
   left: 0;
   right: 0;
   margin: auto;
 }
-.popular__spoon {
-  width: 30px;
+.popular__broccoli-1 {
+  width: 40px;
   top: 3rem;
-  left: 0.5rem;
+  left: 10rem;
   transition: transform 0.5s 0.1s;
-  rotate: 30deg;
+  rotate: -80deg;
 }
-.popular__fork {
-  width: 20px;
-  top: 2rem;
+.popular__broccoli-2 {
+  width: 30px;
+  top: 9rem;
   left: 2rem;
   transition: transform 0.5s 0.1s;
-  rotate: 30deg;
+  rotate: 20deg;
   filter: blur(0.5px);
 }
 
