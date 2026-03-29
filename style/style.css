@@ -339,7 +339,7 @@ img {
   padding-top: 1.5rem;
 }
 .popular__card {
-  width: 100%;
+  margin-inline: auto;
   max-width: 270px;
   display: grid;
   row-gap: 1.5rem;
@@ -349,11 +349,12 @@ img {
   display: grid;
   justify-items: center;
   justify-self: center;
+  min-height: 200px;
 }
 .popular__shape {
   background-color: var(--first-color);
   aspect-ratio: 1/1;
-  width: 70%;
+  width: 200px;
   border-radius: 50%;
   clip-path: inset(50% 0 0 0);
 }
@@ -363,6 +364,9 @@ img {
 .popular__menu {
   width: 195px;
   top: -1rem;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 .popular__spoon {
   width: 30px;
