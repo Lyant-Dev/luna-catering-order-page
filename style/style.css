@@ -272,23 +272,23 @@ img {
   rotate: 90deg;
   filter: blur(0.5px);
 }
-.home__spoon {
-  width: 70px;
-  left: -2rem;
-  bottom: 4rem;
+.home__mushrooms-1 {
+  width: 40px;
+  left: 2.4rem;
+  bottom: 2rem;
   rotate: 5deg;
 }
 
-.home__fork {
+.home__mushrooms-2 {
   width: 50px;
   right: 1rem;
   rotate: -80deg;
   top: 1rem;
 }
 .home__lettuce {
-  width: 40px;
+  width: 70px;
   right: 6rem;
-  bottom: 0.3rem;
+  bottom: -0.9rem;
 }
 .home__sticker {
   position: absolute;
@@ -362,7 +362,7 @@ img {
   position: absolute;
 }
 .popular__menu {
-  width: 200px;
+  width: 150px;
   top: 3rem;
   left: 0;
   right: 0;
