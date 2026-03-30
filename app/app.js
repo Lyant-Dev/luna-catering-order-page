@@ -30,13 +30,24 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 // CHANGE HEADER STYLES
 
 const shadowHeader = () => {
-const header = document.getElementById("header");
-// Add the .scroll-header class if the bottom scroll of the viewport is greater than 50
-this.scrollY >= 50
-  ? header.classList.add("shadow-header")
-  : header.classList.remove("shadow-header");
+  const header = document.getElementById("header");
+  // Add the .scroll-header class if the bottom scroll of the viewport is greater than 50
+  this.scrollY >= 50
+    ? header.classList.add("shadow-header")
+    : header.classList.remove("shadow-header");
 };
 window.addEventListener("scroll", shadowHeader);
 
-// SWIPER POPULAR 
+// SWIPER POPULAR
+const swiperPopular = new Swiper(".popular__swiper", {
+  loop: true,
+  spaceBetween: 32,
+  slidesPerView: "auto",
+  centeredSlides: "auto",
 
+  breakpoints: {
+    1150: {
+      spaceBetween: 80,
+    },
+  },
+});
