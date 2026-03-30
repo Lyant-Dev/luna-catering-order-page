@@ -26,3 +26,17 @@ const linkAction = () => {
   navMenu.classList.remove("show-menu");
 };
 navLink.forEach((n) => n.addEventListener("click", linkAction));
+
+// CHANGE HEADER STYLES
+
+const shadowHeader = () => {
+const header = document.getElementById("header");
+// Add the .scroll-header class if the bottom scroll of the viewport is greater than 50
+this.scrollY >= 50
+  ? header.classList.add("shadow-header")
+  : header.classList.remove("shadow-header");
+};
+window.addEventListener("scroll", shadowHeader);
+
+// SWIPER POPULAR 
+

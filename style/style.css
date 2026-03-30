@@ -362,8 +362,8 @@ img {
   position: absolute;
 }
 .popular__menu {
-  width: 150px;
-  top: 3rem;
+  width: 200px;
+  top: 1rem;
   left: 0;
   right: 0;
   margin: auto;
@@ -378,7 +378,7 @@ img {
 .popular__broccoli-2 {
   width: 30px;
   top: 9rem;
-  left: 2rem;
+  left: 1.5rem;
   transition: transform 0.5s 0.1s;
   rotate: 20deg;
   filter: blur(0.5px);
