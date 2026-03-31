@@ -340,9 +340,11 @@ img {
 }
 .popular__card {
   margin-inline: auto;
-  max-width: 270px;
+  width: 280px;
   display: grid;
-  row-gap: 1.5rem;
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1.5rem;
 }
 .popular__images {
   position: relative;
@@ -393,7 +395,11 @@ img {
   margin-bottom: 0.5rem;
 }
 .popular__description {
-  margin-bottom: 1.2rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
 }
 .popular__card:hover .popular__spoon {
   transform: translate(-0.5rem, -0.25rem);
@@ -404,6 +410,9 @@ img {
 
 /* SWIPER CLASSES  */
 .swiper {
-  overflow: visible;
+  overflow: hidden;
   margin-inline: initial;
+}
+.swiper-wrapper {
+  align-items: stretch;
 }
