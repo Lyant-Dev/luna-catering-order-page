@@ -393,6 +393,7 @@ img {
   font-size: var(--h1-font-size);
   color: var(--title-color);
   margin-bottom: 0.5rem;
+  margin-top: 1rem;
 }
 .popular__description {
   display: -webkit-box;
