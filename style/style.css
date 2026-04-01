@@ -422,3 +422,17 @@ img {
 .about__container {
   row-gap: 3rem;
 }
+.about__data {
+  text-align: center;
+}
+.about .section__title,
+.about__description {
+  color: var(--title-color);
+  margin-bottom: 1.5rem;
+}
+.about__images {
+  position: relative;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
