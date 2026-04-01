@@ -438,9 +438,32 @@ img {
 }
 .about__shape {
   aspect-ratio: 1/1;
-  width: 100%;
-  max-width: 300px;
+  width: min(300px, 80vw);
   background-color: var(--first-color);
   border-radius: 50%;
   clip-path: inset(50% 0 0 0);
+}
+.about__images img {
+  position: absolute;
+}
+.about__menu {
+  width: 100%;
+  max-width: 280px;
+  filter: drop-shadow(0 32px 16px hsla(292, 85%, 8%, 0.5));
+}
+
+.about__pakchoy-1,
+.about__pakchoy-2 {
+  width: 50px;
+}
+
+.about__pakchoy-1 {
+  top: .5rem;
+  left: 2rem;
+  rotate: -20deg;
+}
+.about__pakchoy-2 {
+  bottom: .5rem;
+  right: -.5rem;
+  rotate: 40deg;
 }
