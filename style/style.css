@@ -434,11 +434,13 @@ img {
   position: relative;
   display: grid;
   place-items: center;
+  width: min(300px, 80vw);
+  margin-inline: auto;
   align-items: center;
 }
 .about__shape {
   aspect-ratio: 1/1;
-  width: min(300px, 80vw);
+  width: 100%;
   background-color: var(--first-color);
   border-radius: 50%;
   clip-path: inset(50% 0 0 0);
@@ -458,12 +460,12 @@ img {
 }
 
 .about__pakchoy-1 {
-  top: .5rem;
-  left: 2rem;
+  top: 10.5%;
+  left: 4%;
   rotate: -20deg;
 }
 .about__pakchoy-2 {
-  bottom: .5rem;
-  right: -.5rem;
+  bottom: 15%;
+  right: 10%;
   rotate: 40deg;
 }
