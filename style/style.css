@@ -469,3 +469,14 @@ img {
   right: 10%;
   rotate: 40deg;
 }
+
+/* PRODUCTS */
+.products {
+  background-color: var(--first-color);
+}
+.products .section__title {
+  color: var(--dark-color);
+}
+.products__container {
+  grid-template-columns: repeat(2, 1fr);
+}
