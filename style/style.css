@@ -485,3 +485,17 @@ img {
   background-color: var(--dark-color);
   padding: 1rem 0.5rem 1.25rem;
 }
+.products__images {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  justify-self: center;
+}
+.products__shape {
+  aspect-ratio: 1/1;
+  max-width: 180px;
+  width: 100%;
+  background-color: var(--first-color);
+  border-radius: 50%;
+  clip-path: inset(50% 0 0 0);
+}
