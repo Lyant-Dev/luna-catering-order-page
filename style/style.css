@@ -480,3 +480,8 @@ img {
 .products__container {
   grid-template-columns: repeat(2, 1fr);
 }
+.products__card {
+  position: relative;
+  background-color: var(--dark-color);
+  padding: 1rem 0.5rem 1.25rem;
+}
