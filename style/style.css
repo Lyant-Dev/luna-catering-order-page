@@ -499,3 +499,15 @@ img {
   border-radius: 50%;
   clip-path: inset(50% 0 0 0);
 }
+.products__images img {
+  position: absolute;
+}
+.products__menu {
+  width: 120px;
+  top: 0;
+  transition: transform 0.4s;
+}
+.products__broccoli-1 {
+  width: 30px;
+  
+}
