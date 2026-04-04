@@ -515,6 +515,20 @@ img {
 }
 .products__broccoli-2 {
   width: 40px;
-  right: -.2rem;
+  right: -0.2rem;
   top: 10rem;
 }
+.products__data {
+  margin-top: 1.5rem;
+}
+.products__name {
+  color: var(--white-color);
+  margin: 0.75rem;
+  font-size: var(--h3-font-size);
+}
+.products__price {
+  color: white;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+
