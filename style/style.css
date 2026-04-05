@@ -385,7 +385,17 @@ img {
   rotate: 20deg;
   filter: blur(0.5px);
 }
-
+.popular__button {
+  display: inline-flex;
+  justify-content: center;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  font-weight: var(--font-semi-bold);
+  padding: 0.5rem 1rem;
+  transition:
+    background 0.4s,
+    box-shadow 0.4s;
+}
 .popular__data {
   text-align: center;
 }
