@@ -584,6 +584,7 @@ img {
 .contact__title {
   font-size: var(--h1-font-size);
   margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 .contact__social {
   display: flex;
@@ -631,10 +632,6 @@ img {
   position: absolute;
   width: 100%;
   max-width: 250px;
-  top: -0.5rem;
-  mask-image: linear-gradient(
-    to bottom,
-    var(--first-color) 80%,
-    transparent 100%
-  );
+  -webkit-mask-image: linear-gradient(to bottom, #000 80%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 80%, transparent 100%);
 }
