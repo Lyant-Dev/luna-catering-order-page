@@ -585,3 +585,31 @@ img {
   font-size: var(--h1-font-size);
   margin-bottom: 0.5rem;
 }
+.contact__social {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+.contact__social-link {
+  color: var(--first-color);
+  font-size: 1.5rem;
+  transition: transform 0.4s;
+}
+.contact__social-link:hover {
+  transform: translateY(0.25rem);
+}
+.contact__address {
+  font-style: normal;
+}
+.contact__map {
+  color: var(--first-color);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+.contact__map span {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+}
