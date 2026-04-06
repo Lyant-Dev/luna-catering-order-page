@@ -567,3 +567,9 @@ img {
 .products__card:hover .products__broccoli-2 {
   transform: translate(0.25rem, 0.25rem);
 }
+
+/* CONTACT */
+
+.contact__section .contact__title {
+  color: var(--dark-color);
+}
