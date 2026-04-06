@@ -613,3 +613,28 @@ img {
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
 }
+.contact__images {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  margin-top: 3rem;
+}
+.contact__shape {
+  max-width: 290px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-color: var(--first-color);
+  border-radius: 50%;
+  clip-path: inset(50% 0 0 0);
+}
+.contact__delivery {
+  position: absolute;
+  width: 100%;
+  max-width: 250px;
+  top: -0.5rem;
+  mask-image: linear-gradient(
+    to bottom,
+    var(--first-color) 80%,
+    transparent 100%
+  );
+}
