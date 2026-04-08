@@ -658,9 +658,22 @@ img {
 .footer__social-link {
   font-size: 1.5rem;
   color: var(--dark-color);
-  transition: transform .4s;
+  transition: transform 0.4s;
 }
 .footer__social-link:hover {
-  transform: translateY(.25rem);
+  transform: translateY(0.25rem);
 }
-.foo
+.footer__pay {
+  width: 30px;
+}
+.footer__form {
+  background-color: var(--dark-color);
+  padding: 0.5rem;
+}
+.footer__input {
+  width: 100%;
+  background: transparent;
+  padding-left: 0.5rem;
+  color: var(--white-color);
+  font-weight: var(--font-semi-bold);
+}
