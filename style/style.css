@@ -677,3 +677,30 @@ img {
   color: var(--white-color);
   font-weight: var(--font-semi-bold);
 }
+.footer__input::placeholder {
+  color: var(--white-color);
+}
+.footer__button {
+  padding: 0.75rem 0.5rem;
+  color: var(--dark-color);
+  cursor: pointer;
+}
+.footer__copy {
+  display: block;
+  margin-top: 4rem;
+  text-align: center;
+  color: var(--dark-color);
+  font-size: var(--small-font-size);
+}
+
+/* SCROLL-BAR  */
+::-webkit-scrollbar {
+  width: 0.7rem;
+  background-color: hsl(12, 20%, 30%);
+}
+::-webkit-scrollbar-thumb {
+  background-color: hsl(12, 20%, 40%);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(12, 20%, 50%);
+}
