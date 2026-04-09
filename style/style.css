@@ -751,6 +751,9 @@ img {
   .home__sticker {
     top: -1%;
   }
+  .popular__card {
+    width: 100%git;
+  }
   .popular__container {
     width: 100%;
     margin-inline: auto;
