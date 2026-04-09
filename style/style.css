@@ -731,3 +731,41 @@ img {
 
 /* BREAKPOINTS */
 /* FOR SMALL DEVICES */
+@media screen and (max-width: 320px) {
+  .container {
+    margin-inline: 1rem;
+  }
+  .section__title {
+    font-size: 2rem;
+  }
+  .home__title {
+    font-size: 3.5rem;
+  }
+  .home__shape,
+  .home__menu {
+    width: 100%;
+  }
+  .home__splash {
+    width: 100%;
+  }
+  .home__sticker {
+    top: -1%;
+  }
+  .about__shape,
+  .about__menu {
+    width: 100%;
+  }
+  .products__container {
+    grid-template-columns: 180px;
+    justify-content: center;
+  }
+  .contact__image {
+    position: relative;
+  }
+  .contact__shape {
+    width: 100%;
+  }
+  .contact__delivery {
+    width: 100%;
+  }
+}
