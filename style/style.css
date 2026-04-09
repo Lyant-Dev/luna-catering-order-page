@@ -836,7 +836,7 @@ img {
     justify-self: center;
   }
   .products__container {
-    grid-template-columns: repeat(3, 160px);
+    grid-template-columns: repeat(3, 220px);
   }
   .contact__container {
     justify-content: center;
@@ -855,5 +855,29 @@ img {
   }
   .contact__delivery {
     width: 300px;
+  }
+}
+
+/* FOR LARGE DEVICES */
+@media screen and (min-width: 1150px) {
+  .container {
+    margin-inline: auto;
+  }
+  .section {
+    padding-block: 7rem 5rem;
+  }
+  .section__title {
+    margin-bottom: 4rem;
+  }
+  .nav {
+    height: calc(var(--header-height) + 2rem);
+  }
+  .nav__toggle,
+  .nav__close {
+    display: none;
+  }
+  .nav__list {
+    flex-direction: row;
+    column-gap: 4rem;
   }
 }
