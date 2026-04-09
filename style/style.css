@@ -959,10 +959,10 @@ img {
   .contact .section__title {
     font-size: var(--biggest-font-size);
   }
- .contact__container {
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-}
+  .contact__container {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
   .contact__info {
     grid-template-columns: max-content;
     row-gap: 6rem;
@@ -988,5 +988,41 @@ img {
   .contact__delivery {
     width: 500px;
   }
-  
+  .footer__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer__container div:nth-child(3) {
+    grid-column: initial;
+  }
+  .footer__container div:nth-child(2) {
+    order: 1;
+    justify-self: end;
+  }
+  .footer__container div:nth-child(1) {
+    justify-self: start;
+  }
+  .footer__social,
+  .footer__pay {
+    margin-inline: auto;
+    justify-content: center;
+  }
+  .footer__copy {
+    margin-top: 5rem;
+  }
+  .footer__title {
+    font-size: var(--h2-font-size);
+    color: var(--dark-color);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .scrollup {
+    right: 3rem;
+  }
+}
+/* For 2k resolutions (2048 x 1152, 2048 x 1536) */
+@media screen and (min-width: 2084px) {
+  body {
+    zoom: 1.3;
+  }
 }
