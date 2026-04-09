@@ -752,13 +752,13 @@ img {
     top: -1%;
   }
   .popular__card {
-    width: 100%git;
+    width: 100%;
   }
   .popular__container {
     width: 100%;
     margin-inline: auto;
   }
-  .about__container{
+  .about__container {
     justify-content: center;
   }
   .about__shape,
@@ -777,5 +777,32 @@ img {
   }
   .contact__delivery {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    margin-inline-start: 1rem;
+  }
+  .section__title {
+    font-size: 2rem;
+  }
+  .home__title {
+    font-size: 3.5rem;
+  }
+  .home__shape,
+  .home__menu {
+    width: 100%;
+  }
+  .home__sticker {
+    top: 2%;
+  }
+  .about__shape,
+  .about__menu {
+    width: 100%;
+  }
+  .products__container {
+    grid-template-columns: 160px;
+    justify-content: center;
   }
 }
