@@ -880,4 +880,33 @@ img {
     flex-direction: row;
     column-gap: 4rem;
   }
+  .nav__link {
+    font-size: var(--normal-font-size);
+  }
+  .home__container {
+    grid-template-columns: 1050px;
+    max-width: 1050px;
+    padding-top: 2.5rem;
+  }
+  .home__shape,
+  .home__menu {
+    width: 100%;
+  }
+  .home__data {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    width: 300px;
+    text-align: initial;
+    margin-top: 0;
+    font-size: var(--normal-font-size);
+  }
+  .home__description {
+    margin-bottom: 6rem;
+  }
+  .home__sticker {
+    width: 150px;
+    top: 23rem;
+    right: 0;
+  }
 }
