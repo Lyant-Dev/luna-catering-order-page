@@ -621,6 +621,7 @@ img {
   margin-top: 3rem;
 }
 .contact__shape {
+  margin-bottom: 1rem;
   max-width: 290px;
   width: 100%;
   aspect-ratio: 1/1;
@@ -727,3 +728,6 @@ img {
 .show-scroll {
   bottom: 3rem;
 }
+
+/* BREAKPOINTS */
+/* FOR SMALL DEVICES */
