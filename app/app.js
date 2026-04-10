@@ -32,7 +32,7 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 const shadowHeader = () => {
   const header = document.getElementById("header");
   // Add the .scroll-header class if the bottom scroll of the viewport is greater than 50
-  this.scrollY >= 50
+  window.scrollY >= 50
     ? header.classList.add("shadow-header")
     : header.classList.remove("shadow-header");
 };
@@ -56,7 +56,7 @@ const swiperPopular = new Swiper(".popular__swiper", {
 const scrollUp = () => {
   const scrollUp = document.getElementById("scroll-up");
   // Add the .scroll-header class if the bottom scroll of the viewport is greater than 350
-  this.scrollY >= 350
+  window.scrollY >= 350
     ? scrollUp.classList.add("show-scroll")
     : scrollUp.classList.remove("show-scroll");
 };
@@ -95,9 +95,14 @@ const sr = ScrollReveal({
   delay: 300,
 });
 
-sr.reveal(".popular__swiper, .footer__container,. footer__copy");
-sr.reveal("home__shape", { origin: "bottom" });
-sr.reveal("home__menu", { delay: 1000, distance: "2000px", duration: 1500 });
+sr.reveal(".popular__swiper, .footer__container,.footer__copy");
+sr.reveal(".section__title");
+sr.reveal(".home__shape", { origin: "bottom" });
+sr.reveal(".home__catering", {
+  delay: 1000,
+  distance: "2000px",
+  duration: 1500,
+});
 sr.reveal(".home__splash", { delay: 1600, scale: 0, duration: 1500 });
 sr.reveal(".home__broccoli-1, .home__broccoli-2", {
   delay: 2200,
@@ -132,7 +137,7 @@ sr.reveal(".about__images", {
 sr.reveal(".about__menu", {
   delay: 1000,
 });
-sr.reveal(".about__broccoli-1,.about__broccoli-2", {
+sr.reveal(".about__pakchoy-1,.about__pakchoy-2", {
   delay: 1400,
 });
 sr.reveal(".products__card,.contact__info", {

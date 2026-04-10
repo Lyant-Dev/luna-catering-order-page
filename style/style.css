@@ -320,7 +320,7 @@ img {
   background-color: var(--body-color);
   box-shadow: 0 8px 24px hsla(12, 85%, 8%, 0.2);
 }
-.button_dark {
+.button-dark {
   margin-top: 1.5rem;
   background-color: var(--dark-color);
 }
