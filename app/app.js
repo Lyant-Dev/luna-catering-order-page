@@ -62,4 +62,28 @@ const scrollUp = () => {
 };
 window.addEventListener("scroll", scrollUp);
 
-// SCROLL SECTIONS ACTIVE LINK 
+// SCROLL SECTIONS ACTIVE LINK
+const sections = document.getElementById("section[id]");
+
+// Link the ID of each section (section id="home") to each link (a href="#home")
+// and activate the link with the class .active-link
+const scrollActive = () => {
+  //We get the position y scrolling down
+  const scrollY = window.scrollY;
+
+  sections.forEach((section) => {
+    const id = section.id, // id for each section
+      top = section.offsetTop - 50, // Distance from the top edge
+      height = section.offsetHeight, // Element height
+      link = document.querySelector(".nav__menu a[href*=" + id + "]"); //id nav link
+
+    if (!link) return;
+
+    link.classList.toggle(
+      "active-link",
+      scrollY > top && scrollY <= top + height,
+    );
+  });
+};
+window.addEventListener("scroll", scrollActive);
+
